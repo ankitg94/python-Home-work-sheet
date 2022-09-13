@@ -1,0 +1,32 @@
+#answer-1
+x="23"
+print(type(x))
+#answer -2
+y='m'
+print(ord(y))
+#answer-3
+z=100
+print(chr(z))
+#answer-4
+a=10
+print(bin(a))
+#answer-5
+b=23
+print(oct(b))
+#answer-6
+c=43
+print(hex(c))
+#answer-7
+d=0b1100101
+print(d)
+#answer-8
+e=0x2f
+print(e)
+#answer-9
+f=0o125
+print(f)
+#answer-10
+g=0o25
+h=0x39
+print(bin(g+h))
+#completed assigment
