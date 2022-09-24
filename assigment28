@@ -1,0 +1,60 @@
+#answer-1
+create table std_file(
+postgres(# roll_no int,
+postgres(# name text,
+postgres(# course text,
+postgres(# primary key(roll_no)
+postgres(# );
+#answer-2
+insert into std_file values(1,'ayesha','python')
+insert into std_file values(2,'ankit','web dev')
+insert into std_file values(3,'shurbhi','blockchian')
+insert into std_file values(4,'jaismine','share market')
+
+
+#answer-3
+####output####
+select * from std_file;
+ roll_no |   name   |    course
+---------+----------+--------------
+       1 | ayesha   | python
+       2 | ankit    | web dev
+       3 | shrubhi  | blockchain
+       4 | jaismine | share market
+
+#answer-4
+update std_file set name = 'mohan'   where  roll_no = 3;       
+#answer-5
+delete from std_file where roll_no = 2;
+#answer-6
+delete from std_file;
+#answer-8
+create table course(
+postgres(# cid int,
+postgres(# cname text,
+postgres(# primary key(cid)
+postgres(# );
+CREATE TABLE
+postgres=# create table student(
+postgres(# rollno int,
+postgres(# name text,
+postgres(# cid int,
+postgres(# constraint fk_dept foreign key(cid) references course(cid)
+postgres(# );
+CREATE TABLE
+#answer-9
+ insert into course values (1,'python');
+
+ insert into course values (2,'java');
+
+ insert into cousre values (3,'html');
+
+
+
+ #################
+ insert into student values (1,'ayesha',1);
+
+ insert into student values (2,'ashwin',1);
+ 
+ #answer -10
+ select rollno from student where cid =1;
